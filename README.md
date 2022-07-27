@@ -22,12 +22,12 @@ More details can be found in the following paper:
  
 # Environment
    This code is based on the [CompressAI](https://github.com/InterDigitalInc/CompressAI).
-   '''
+
+```
    pip3 install torch torchvision torchaudio
    pip3 install compressai=1.1.5
-   pip3 install thop, ptflops, timm.
-   
-   '''
+   pip3 install thop, ptflops, timm
+```
 
 #Usage
 
