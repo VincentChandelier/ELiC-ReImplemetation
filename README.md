@@ -16,7 +16,7 @@ More details can be found in the following paper:
 ```
  # dataset
  According to the paper, They train the models on the largest 8000 images picked from ImageNet dataset.
- so download the (ImageNet)[http://www.image-net.org/challenges/LSVRC/2012/dd31405981ef5f776aa17412e1f0c112/ILSVRC2012_img_train.tar]
+ so download the [ImageNet](http://www.image-net.org/challenges/LSVRC/2012/dd31405981ef5f776aa17412e1f0c112/ILSVRC2012_img_train.tar)
  
  unzip those download images
  ```
