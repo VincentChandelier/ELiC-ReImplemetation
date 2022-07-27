@@ -14,7 +14,7 @@ More details can be found in the following paper:
   year={2022}
 }
 ```
- #dataset
+ # dataset
  According to the paper, They train the models on the largest 8000 images picked from ImageNet dataset.
  so download the (ImageNet)[http://www.image-net.org/challenges/LSVRC/2012/dd31405981ef5f776aa17412e1f0c112/ILSVRC2012_img_train.tar]
  
@@ -35,7 +35,7 @@ More details can be found in the following paper:
    pip3 install thop, ptflops, timm
 ```
 
-#Usage
+# Usage
 
 ## Train Usage
    ```
