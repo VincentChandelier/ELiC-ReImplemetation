@@ -1,4 +1,4 @@
-## ELIC
+# ELIC: Efficient Learned Image Compression withUnevenly Grouped Space-Channel Contextual Adaptive Coding.
 A Pytorch Implementation of "ELIC: Efficient Learned Image Compression withUnevenly Grouped Space-Channel Contextual Adaptive Coding."
 
 Note that This Is Not An Official Implementation Code.
