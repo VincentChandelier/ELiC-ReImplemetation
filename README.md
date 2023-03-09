@@ -55,3 +55,7 @@ python3 -m updata.py checkpoint -n updatacheckpoint-name
 ```
 python Inference.py --dataset/test --output_path Result_dir -p checkpoint.pth.tar
 ```
+
+# RD Results
+We trained the network and ask the RD points from the author.
+![](Kodak.png)
