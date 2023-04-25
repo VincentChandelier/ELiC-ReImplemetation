@@ -69,7 +69,7 @@ python3 -m updata.py checkpoint -n updatacheckpoint-name
 ## Test 
 
 ```
-python Inference.py --dataset/test --output_path Result_dir -p checkpoint.pth.tar
+python Inference.py --dataset ./dataset/Kodak --output_path ELIC_0450_ft_3980_Plateau -p /root/ELICReIm/ELIC_0450_ft_3980_Plateau.pth.tar --patch 64
 ```
 
 # RD Results
