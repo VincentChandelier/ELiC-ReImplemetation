@@ -19,6 +19,17 @@ More details can be found in the following paper:
  * ELIC-QVRF：https://github.com/VincentChandelier/ELIC-QVRF
  * QVRF：https://github.com/bytedance/QRAF
  
+ # Available Checkpoint
+| lambda |  Link                                                                                              |
+| ----|---------------------------------------------------------------------------------------------------|
+| 0.45 | [0.45](https://drive.google.com/file/d/1uuKQJiozcBfgGMJ8CfM6lrXOZWv6RUDN/view?usp=sharing)    |
+| 0.15 | [0.15](https://drive.google.com/file/d/1s544Uxv0gBY3WvKBcGNb3Fb22zfmd9PL/view?usp=sharing)    |
+| 0.032 | [0.032](https://drive.google.com/file/d/1Moody9IR8CuAGwLCZ_ZMTfZXT0ehQhqc/view?usp=sharing)    |
+| 0.016 | [0.0016](https://drive.google.com/file/d/1MWlYAmpHbWlGtG7MBBTPEew800grY5yC/view?usp=sharing)     |
+| 0.008| [0.008](https://drive.google.com/file/d/1VNE7rx-rBFLnNFkz56Zc-cPr6xrBBJdL/view?usp=sharing) |
+| 0.004 | [0.004](https://drive.google.com/file/d/1YGVJ9bpeEq0xfqka2xkaMzhDkeYFJi6q/view?usp=sharing)    |
+
+ 
  # dataset
  According to the paper, They train the models on the largest 8000 images picked from ImageNet dataset.
  so download the [ImageNet](http://www.image-net.org/challenges/LSVRC/2012/dd31405981ef5f776aa17412e1f0c112/ILSVRC2012_img_train.tar)
