@@ -17,7 +17,7 @@ More details can be found in the following paper:
 ## Related links
  * CompressAI: https://github.com/InterDigitalInc/CompressAI
  * ELIC-QVRF：https://github.com/VincentChandelier/ELIC-QVRF
- * QVRF：https://github.com/bytedance/QRAF
+ * QVRF：[https://github.com/bytedance/QRAF](https://github.com/VincentChandelier/QRAF)
  
  # Available Checkpoint
 | lambda |  Link                                                                                              |
