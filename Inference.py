@@ -89,7 +89,20 @@ def inference(model, x, f, outputpath, patch):
     )
 
     num_pixels = x.size(0) * x.size(2) * x.size(3)
-    bpp = sum(len(s[0]) for s in out_enc["strings"]) * 8.0 / num_pixels
+    bpp = 0
+    for s in out_enc["strings"]:
+        for j in s:
+            if isinstance(j, list):
+                for i in j:
+                    if isinstance(i, list):
+                        for k in i:
+                            bpp += len(k)
+                    else:
+                        bpp += len(i)
+            else:
+                bpp += len(j)
+    bpp *= 8.0 / num_pixels
+    # bpp = sum(len(s[0]) for s in out_enc["strings"]) * 8.0 / num_pixels
     z_bpp = len(out_enc["strings"][1][0])* 8.0 / num_pixels
     y_bpp = bpp - z_bpp
 
