@@ -46,9 +46,10 @@ More details can be found in the following paper:
    This code is based on the [CompressAI](https://github.com/InterDigitalInc/CompressAI).
 
 ```
-   pip3 install torch torchvision torchaudio
-   pip3 install compressai=1.1.5
-   pip3 install thop, ptflops, timm
+   pip3 install compressai==1.1.5
+   pip3 install thop
+   pip3 install ptflops
+   pip3 install timm
 ```
 
 # Usage
@@ -69,7 +70,7 @@ python3 -m updata.py checkpoint -n updatacheckpoint-name
 ## Test 
 
 ```
-python Inference.py --dataset ./dataset/Kodak --output_path ELIC_0450_ft_3980_Plateau -p /root/ELICReIm/ELIC_0450_ft_3980_Plateau.pth.tar --patch 64
+python Inference.py --dataset ./dataset/Kodak --output_path ELIC_0450_ft_3980_Plateau -p ./ELIC_0450_ft_3980_Plateau.pth.tar --patch 64
 ```
 
 # RD Results
