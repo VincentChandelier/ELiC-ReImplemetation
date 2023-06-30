@@ -39,7 +39,7 @@ More details can be found in the following paper:
  # cd the imagedatasetSavingDir
  for tar in *.tar;  do tar xvf $tar; done
  ```
- Run the code to prepare the Training dataset.
+ The preprocessing and selection of ImageNet dataset is same to QVRF：[https://github.com/bytedance/QRAF](https://github.com/VincentChandelier/QRAF).
  
  
 # Environment
