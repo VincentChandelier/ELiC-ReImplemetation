@@ -30,15 +30,10 @@ More details can be found in the following paper:
 | 0.004 | [0.004](https://drive.google.com/file/d/1YGVJ9bpeEq0xfqka2xkaMzhDkeYFJi6q/view?usp=sharing)    |
 
  
- # dataset
+ # Training dataset
  According to the paper, They train the models on the largest 8000 images picked from ImageNet dataset.
  so download the [ImageNet](http://www.image-net.org/challenges/LSVRC/2012/dd31405981ef5f776aa17412e1f0c112/ILSVRC2012_img_train.tar)
  
- unzip those download images
- ```
- # cd the imagedatasetSavingDir
- for tar in *.tar;  do tar xvf $tar; done
- ```
  The preprocessing and selection of ImageNet dataset is same to QVRF：[https://github.com/bytedance/QRAF](https://github.com/VincentChandelier/QRAF).
  
  
